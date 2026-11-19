@@ -1,0 +1,18 @@
+langgraph>=1.0
+langgraph-checkpoint-sqlite>=2.0
+langchain>=1.0
+langchain-core>=1.0
+langchain-community>=0.4
+langchain-chroma>=1.0
+langchain-text-splitters>=1.0
+chromadb>=1.0
+langchain-groq>=1.0        # Groq chat model (used when GROQ_API_KEY is set)
+fastembed>=0.4             # local embeddings (Groq has no embeddings API); falls back to hash embeddings if unavailable
+langfuse>=3.0              # optional: real trace links when LANGFUSE_* keys are set
+mcp>=1.9,<2                # the provided server uses mcp.server.fastmcp, removed in mcp 2.x
+pydantic>=2.5
+pandas>=2.0
+jsonschema>=4.0
+requests>=2.31
+python-dotenv>=1.0
+jupyter
